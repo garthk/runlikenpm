@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "block-scoped-var": 2,
+    "brace-style": [ 2, "1tbs", { "allowSingleLine": true } ],
+    "camelcase": [ 2, { "properties": "never" } ],
+    "comma-dangle": [ 2, "never" ],
+    "comma-spacing": [ 2, { "before": false, "after": true } ],
+    "comma-style": [ 2, "last" ],
+    "dot-notation": [ 2, { "allowKeywords": true } ],
+    "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ],
+    "new-cap": [ 2, { "newIsCap": true } ],
+    "no-multiple-empty-lines": [ 2, { "max": 2 } ],
+    "no-unused-vars": [ 2, { "vars": "local", "args": "after-used" } ],
+    "no-use-before-define": [ 0 ],
+    "quotes": [ 2, "single", "avoid-escape" ]
+  }
+}

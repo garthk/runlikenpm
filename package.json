@@ -1,0 +1,32 @@
+{
+  "name": "@garthk/runlikenpm",
+  "version": "1.0.0",
+  "description": "spawns commands much like npm would, but without running npm",
+  "main": "runlikenpm.js",
+  "scripts": {
+    "test": "lab -v test",
+    "posttest": "eslint runlikenpm.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garthk/runlikenpm"
+  },
+  "keywords": [
+    "npm",
+    "spawn"
+  ],
+  "author": "Garth Kidd <garth@garthk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garthk/runlikenpm/issues"
+  },
+  "homepage": "https://github.com/garthk/runlikenpm",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "eslint": "^0.21.2",
+    "lab": "^5.9.0"
+  },
+  "dependencies": {
+    "npm-path": "^1.0.1"
+  }
+}
