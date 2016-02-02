@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/garthk/runlikenpm",
   "devDependencies": {
-    "code": "^1.4.0",
-    "eslint": "^0.21.2",
-    "lab": "^5.9.0"
+    "code": "^2.1.0",
+    "eslint": "^1.10.3",
+    "lab": "^8.2.0"
   },
   "dependencies": {
     "npm-path": "^1.0.1"
